@@ -1,0 +1,45 @@
+{
+    "name": "neovg/phpredis-lock",
+    "description": "Simple mutex locking class with support for TTL using PHPRedis as backend.",
+    "type": "library",
+    "license": "BSD-3-Clause",
+    "keywords": [
+        "mutex",
+        "locking",
+        "process management"
+    ],
+    "homepage": "https://github.com/NeoVG/phpredis-lock",
+    "authors": [
+        {
+            "name": "Neo Vg",
+            "email": "neo@gothnet.eu",
+            "role": "Developer",
+            "homepage": "https://github.com/NeoVG"
+        }
+    ],
+    "require": {
+        "php": ">=7.4",
+        "ext-redis": "*",
+        "ext-json": "*",
+        "florianwolters/component-util-singleton": "0.3.*",
+        "neovg/php-struct": "^1.4",
+        "cakephp/chronos": "^2.0"
+    },
+    "require-dev": {
+        "ext-pcntl": "*",
+        "phpunit/phpunit": "^8"
+    },
+    "autoload": {
+        "psr-4": {
+            "NeoVg\\PhpRedisLock\\": "src/"
+        }
+    },
+    "autoload-dev": {
+        "psr-4": {
+            "NeoVg\\PhpRedisLock\\Test\\": "tests/"
+        }
+    },
+    "scripts": {
+        "test": "vendor/bin/phpunit"
+    }
+}
