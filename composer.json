@@ -23,7 +23,7 @@
         "ext-json": "*",
         "florianwolters/component-util-singleton": "0.3.*",
         "neovg/php-struct": "^1.4",
-        "cakephp/chronos": "^2.0"
+        "cakephp/chronos": "^1.0 || ^2.0"
     },
     "require-dev": {
         "ext-pcntl": "*",
