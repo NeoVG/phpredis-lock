@@ -1,6 +1,12 @@
 # phpredis-lock
 Simple mutex locking class with support for TTL using PHPRedis as backend.
 
+## Installation
+
+~~~~bash
+composer require neovg/phpredis-lock
+~~~~
+
 ## Setup
 
 ~~~~php
