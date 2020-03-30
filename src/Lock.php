@@ -63,7 +63,7 @@ class Lock
         if (empty($this->_config->port)) {
             trigger_error('Config directive port is missing', E_USER_ERROR);
         }
-        if (empty($this->_config->database)) {
+        if ($this->_config->database === null) {
             trigger_error('Config directive database is missing', E_USER_ERROR);
         }
     }
