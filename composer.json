@@ -8,13 +8,13 @@
         "locking",
         "process management"
     ],
-    "homepage": "https://gitlab.com/psynet.me/phpredis-lock",
+    "homepage": "https://github.com/NeoVG/phpredis-lock",
     "authors": [
         {
             "name": "Neo Vg",
             "email": "neo@gothnet.eu",
             "role": "Developer",
-            "homepage": "https://gitlab.com/neo-vg"
+            "homepage": "https://github.com/NeoVG"
         }
     ],
     "require": {
